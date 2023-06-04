@@ -1,0 +1,18 @@
+
+npm install -S vue-sweetalert2 (Biblioteca de alertas desnecessaria)
+
+
+
+0. vue create frontend
+
+1. npm install -g @vue/cli
+
+2. vue add vuetify
+
+#Bibliotecas e dependências utilizadas:
+
+- `vue-jwt-decode`
+- `axios`
+
+
+

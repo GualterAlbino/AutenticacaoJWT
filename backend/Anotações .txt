@@ -1,0 +1,24 @@
+#Estrutura do projeto:
+O projeto é formado utilizando em sua estrutura principal as pastas: config,controllers,middlewares,models,routes.
+Cada arquivo dentro dela tem o "sobrenome" equivalente a pasta que pertence. Adotei esse modo como forma de 
+organização.
+
+Toda rota (Com exceção a IndexRoute.js) possui atrelado: 
+
+
+
+0. npm init -y
+
+#Bibliotecas e dependências utilizadas:
+
+- `express`
+- `mongoose`
+- `cors`
+- `jsonwebtoken`
+- `bcrypt`
+- `bcryptjs`
+- `morgan` 
+- `dotenv`
+- `nodemon` (normlamente instalada como dependência dedesenvolvimento, mas para facilitar não está)
+
+
