@@ -1,28 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import HomeView from '../views/Usuarios.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+
   {
     path: '/',
-    name: 'login',
-    component: () => import('../views/Home/Login')
+    name: 'autenticacao',
+    component: () => import('../views/Autenticacao.vue')
   },
   {
-    path: '/cadastro',
-    name: 'cadastro',
-    component: () => import('../views/Home/Cadastro')
+    path: '/home',
+    name: 'home',
+    component: () => import('../views/Usuarios.vue')
   },
-  {
-    path: '/cadastro',
-    name: 'cadastro',
-    //component: () => import('../views/Home/Cadastro')
-  },
-  
+
 ]
 
 const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 
